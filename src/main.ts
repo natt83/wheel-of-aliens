@@ -1,9 +1,9 @@
 import './style.css'
-import typescriptLogo from './typescript.svg'
-import viteLogo from '/vite.svg'
+import typescriptLogo from './assets/typescript.svg'
+import viteLogo from '../public/vite.svg'
 import { setupCounter } from './counter.ts'
 
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
+document.querySelector<HTMLDivElement>('#app')!.innerHTML = /* html */ `
   <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="${viteLogo}" class="logo" alt="Vite logo" />
@@ -18,6 +18,8 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <p class="read-the-docs">
       Click on the Vite and TypeScript logos to learn more
     </p>
+    <a href="/pages/about/">About Us</a> <span> / </span>
+    <a href="/pages/contact/">Contact</a>
   </div>
 `
 
