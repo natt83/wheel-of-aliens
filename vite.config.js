@@ -3,9 +3,9 @@ import { defineConfig } from "vite";
 
 export default defineConfig ({
     root: 'src',
-    publicDir: 'public',
+    publicDir: '../public',
     build: {
-        outDir: './dist',
+        outDir: '../dist',
         emptyOutDir: true,
         rollupOptions: {
             manifest: true,
