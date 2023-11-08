@@ -12,5 +12,9 @@
     "sass": "^1.69.5",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
-  }
+  },
+  "description": "- Vite [https://vitejs.dev/]\r - Sass [https://sass-lang.com/]\r - Typescript [https://www.typescriptlang.org/]",
+  "main": "vite.config.js",
+  "author": "",
+  "license": "ISC"
 }
