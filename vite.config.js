@@ -10,9 +10,9 @@ export default defineConfig ({
         rollupOptions: {
             manifest: true,
             input: {
-                main: resolve(__dirname,'src/index.html'),
-                about: resolve(__dirname, 'src/pages/about/index.html'),
-                contact: resolve(__dirname, 'src/pages/contact/index.html'),
+                home: resolve(__dirname,'src/index.html'),
+                gameplay: resolve(__dirname, 'src/pages/GameplayPage/index.html'),
+                results: resolve(__dirname, 'src/pages/ResultsPage/index.html'),
             }
         }
     }

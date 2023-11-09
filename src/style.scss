@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-@use '../src/assets/sass/footer.scss'
-=======
-@use './assets/sass/.ufo'
->>>>>>> b4eed085e409e6dadafb48102a0267dcedd9cffb
+@use '../src/assets/sass/footer.scss';
+
+body{
+  background-image: url(../src/assets/images/background.png);
+}
