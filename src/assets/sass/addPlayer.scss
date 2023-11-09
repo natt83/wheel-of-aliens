@@ -1,0 +1,44 @@
+@media (max-width: 767px) {
+    #PlayerList {
+        font-size: 20px;
+    }
+}
+
+body {
+    background-image: url(../images/background.png);
+}
+
+.addPlayer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+.PlayerList-container {
+    display: flex;
+    justify-content: center;
+}
+
+#PlayerList {
+    font-size: 16px;
+}
+
+.PlayerList-table {
+    margin: 2%;
+    max-width: 90%;
+    background-color: black;
+    border-collapse: collapse;
+    width: 70%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.PlayerList-table td {
+    background-clip: content-box;
+    color: yellow;
+    padding: 5px;
+    text-align: start;
+    border: 3px solid yellow;
+    border-radius: 12px;
+}
