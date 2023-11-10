@@ -11,6 +11,10 @@
     height: 5vh;
 }
 
+#PlayerName, .addPlayerButton {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .PlayerList-container {
     display: flex;
     justify-content: center;
