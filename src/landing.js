@@ -18,6 +18,7 @@ function toggleEditInput(index, playerNameElement) {
 
     const nameInput = document.createElement("input");
     nameInput.value = playerName;
+    nameInput.style.width = "100px";
 
     const saveButton = document.createElement("button");
     saveButton.textContent = "Save";
@@ -62,7 +63,6 @@ function updatePlayerList() {
 
         const cell = document.createElement("td");
 
-        // Create a container div for each player
         const playerContainer = document.createElement("div");
 
         const playerNameElement = document.createElement("span");
