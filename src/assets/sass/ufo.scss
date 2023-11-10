@@ -1,0 +1,32 @@
+.space{
+    background: url("/src/assets/images/UFO.png");
+}
+
+.ufo{
+    background-image: url(../../assets/images/UFO.png);
+    background-size: 300px 350px;
+    width: 300px;
+    height: 350px;
+    background-repeat: no-repeat;
+    margin-left:40%;
+    margin-top: 12%;
+
+}
+.planet{
+    background-image: url(../../assets/images/shoot.png);
+    background-size:120px 100px;
+    width:15%;
+    height:90px;
+    margin-left: 60%;
+    margin-top: 3%;
+    background-repeat: no-repeat;
+}
+.shoot{
+    background-color: rgba(255, 174, 0, 0.1);
+    color: black;
+    margin-left: 12%;
+    margin-top: 14%;
+    cursor:pointer;
+}
+
+
