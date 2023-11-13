@@ -1,6 +1,14 @@
 @use '../src/assets/sass/addPlayer.scss';
+@use '../src/assets/sass/renderPlayers.scss';
 
 body {
     background-image: url(../src/assets/images/background.png);
     font-family:'Courier New', Courier, monospace;
+}
+
+.StartButton-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
 }
