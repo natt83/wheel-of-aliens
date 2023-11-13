@@ -8,16 +8,22 @@
   <title>Alien Attack!</title>
 </head>
 <body>
+  <div class="StartButton-container">
+    <a href="#" onclick="StartGame()">
+      <img class="StartButton-image" src="./assets/images/start-game.png" alt="spaceship-button">
+    </a>
+  </div>
+
   <div class="addPlayer-container">
     <input type="text" id="PlayerName" placeholder="Nombre del jugador">
     <button class="addPlayerButton" onclick="addPlayer()">Add Player</button>
-</div>
+  </div>
 
-<div class="PlayerList-container">
+  <div class="PlayerList-container">
     <table id="PlayerList" class="PlayerList-table">
-        <tbody>
+      <tbody>
             
-        </tbody>
+      </tbody>
     </table>
 </div>
 
