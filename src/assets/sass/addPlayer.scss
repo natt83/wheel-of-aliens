@@ -18,6 +18,27 @@
 .PlayerList-container {
     display: flex;
     justify-content: center;
+
+    div {
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-areas: 
+        "a a a b c";
+
+        span{
+            grid-area: a;
+        }
+
+        button:nth-child(1){
+            grid-area: b;
+        }
+
+        button:nth-child(2){
+            grid-area: c;
+        }
+        
+
+    }
 }
 
 #PlayerList {
