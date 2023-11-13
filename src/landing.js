@@ -88,3 +88,8 @@ function updatePlayerList() {
 }
 
 updatePlayerList();
+
+function StartGame() {
+    localStorage.setItem("players", JSON.stringify(players));
+    window.location.href = "./pages/GameplayPage/index.html";
+}
