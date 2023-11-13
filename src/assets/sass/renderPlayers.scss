@@ -1,0 +1,29 @@
+.astronaut-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px; 
+}
+
+.astronaut-grid > div {
+    text-align: center;
+    padding: 10px;
+
+    img {
+        width: 2rem;
+        height: 4rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+
+    }
+}
+
+.astronaut-grid img {
+    max-width: 100%;
+}
+
+.astronaut-grid p {
+    margin-top: 0;
+    color: yellow;
+}

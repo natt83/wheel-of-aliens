@@ -24,6 +24,10 @@
         grid-template-columns: repeat(5,1fr);
         grid-template-areas: 
         "a a a b c";
+<<<<<<< HEAD
+=======
+        gap: 0.3rem;
+>>>>>>> add-player
 
         span{
             grid-area: a;
@@ -40,6 +44,7 @@
 
     }
 }
+
 
 #PlayerList {
     font-size: 16px;
