@@ -1,5 +1,18 @@
 .space{
-    background: url("/src/assets/images/UFO.png");
+    background: url("../images/UFO.png");
+}
+#imagenContainer {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+
+.imagen1 {
+    background-image: url('/src/assets/images/UFO.png');
+}
+
+.imagen2 {
+    background-image: url('/src/assets/images/activated-UFO.png');
 }
 
 .ufo{
