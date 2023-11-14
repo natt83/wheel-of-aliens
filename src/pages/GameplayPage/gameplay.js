@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
     const astronautList = document.getElementById('astronautList');
     const shootButton = document.getElementById('shootButton');
-    const players = JSON.parse(localStorage.getItem("players"));
+    let players = JSON.parse(localStorage.getItem("players")) || [];
 
-    if (players && players.length > 0) {
+    if (players.length > 0) {
         const astronautGrid = document.createElement('div');
         astronautGrid.classList.add('astronaut-grid');
 
@@ -25,12 +25,19 @@ function shootPlayer() {
     const astronautItems = document.querySelectorAll('.astronaut-item');
 
     if (astronautItems.length > 0) {
-        const randomIndex = Math.floor(Math.random() * astronautItems.length);
-        const eliminatedPlayer = astronautItems[randomIndex].querySelector('img').getAttribute('data-player');
+        const availablePlayers = Array.from(astronautItems).filter(item => !item.classList.contains('eliminated'));
+        
+        if (availablePlayers.length > 0) {
+            const randomIndex = Math.floor(Math.random() * availablePlayers.length);
+            const eliminatedPlayer = availablePlayers[randomIndex].querySelector('img').getAttribute('data-player');
 
-        astronautItems[randomIndex].querySelector('img').src = '../../assets/images/eliminate-player.png';
+            availablePlayers[randomIndex].classList.add('eliminated');
+            availablePlayers[randomIndex].querySelector('img').src = '../../assets/images/eliminate-player.png';
 
-        alert(`El jugador ${eliminatedPlayer} ha sido eliminado.`);
+            alert(`El jugador ${eliminatedPlayer} ha sido eliminado.`);
+        } else {
+            alert('Todos los jugadores han sido eliminados.');
+        }
     } else {
         alert('No hay jugadores para eliminar.');
     }
