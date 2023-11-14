@@ -12,3 +12,33 @@ body {
     align-items: center;
     padding: 2%;
 }
+
+.StartButton-container {
+    margin-bottom: 20px; /* Espaciado entre el botón y el contenedor centrado */
+  }
+  
+  .StartButton-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .StartButton-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .StartButton-text {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -33%;
+  }
+  
+  .StartButton-link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
