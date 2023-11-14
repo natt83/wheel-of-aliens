@@ -5,14 +5,14 @@
     width: 200px;
     height: 200px;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.imagen1 {
+#ufo {
     background-image: url('/src/assets/images/UFO.png');
-}
 
-.imagen2 {
-    background-image: url('/src/assets/images/activated-UFO.png');
 }
 
 .ufo{
@@ -23,6 +23,9 @@
     background-repeat: no-repeat;
     margin-left:40%;
     margin-top: 12%;
+    align-items: center;
+    
+
 
 }
 .planet{
@@ -32,6 +35,15 @@
     height:90px;
     margin-left: 60%;
     background-repeat: no-repeat;
+}
+.planet2{
+    background-image: url(../../assets/images/shoot.png);
+    background-size: 120px 100px;
+   width: 15%;
+   height: 90px;
+   margin-left: 67%;
+   background-repeat: no-repeat;
+
 }
 .shoot{
     background-color: rgba(255, 174, 0, 0.1);
@@ -46,5 +58,18 @@
     padding: 0%;
     border: darkgoldenrod;
 }
+.shoot2{
+    background-color: rgba(255, 174, 0, 0.1);
+    color: black;
+    margin-left:8%;
+    margin-top: 10%;
+    cursor:pointer;
+    height:30%;
+    width:22%;
+    font-size:85%;
+    font-weight: bold;
+    border: darkgoldenrod;
+}
+
 
 

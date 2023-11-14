@@ -1,12 +1,6 @@
 function changeUFO() {
-    var imagenContainer = document.getElementById('imagenContainer');
+    let imagenContainer = document.getElementById('imagen1');
+    element.classList.toggle('imagen2');}
 
-    if (imagenContainer.classList.contains('ufo')) {
-        imagenContainer.classList.remove('ufo');
-        imagenContainer.classList.add('imagen2'); 
-    } else {
-        imagenContainer.classList.remove('imagen2');
-        imagenContainer.classList.add('ufo');
-    }
-}
+
 

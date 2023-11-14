@@ -4,14 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/UFO.png" type="image/x-icon">
+    <link rel="stylesheet" href="/src/assets/sass/ufo.scss">
     <title>Alien Attack!</title>
 </head>
 <body>
     <div class="space"> </div>
-    <div id="imagenContainer" class="ufo"></div>
-<div class="planet">
-  <button class="shoot" onclick="changeUFO()">shoot</button>
-</div>
-    <script src="changeUFO.js" defer></script>
+    <img id="ufo" src="/src/assets/images/UFO.png">
+    
+    <div class="planet">
+        <button class="shoot" onclick="changeUFO()">shoot</button>
+    </div>
+    <div class="planet2">
+        <button class="shoot2">ver resultad</button>
+    </div>
+
+   
+<script src="../GameplayPage/changeUFO.js"></script>
+    
 </body>
 </html>
