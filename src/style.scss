@@ -2,6 +2,9 @@
 @use '../src/assets/sass/gameplay.scss';
 @use '../src/assets/sass/results.scss';
 @use '../src/assets/sass/renderPlayers.scss';
+@use '../src/assets/sass/header.scss';
+@use '../src/assets/sass/instruction.scss';
+@use '../src/assets/sass/footer.scss';
 
 body {
     background-image: url(../src/assets/images/background.png);
