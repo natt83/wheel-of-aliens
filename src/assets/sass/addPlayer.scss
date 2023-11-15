@@ -65,3 +65,14 @@
     border: 3px solid yellow;
     border-radius: 12px;
 }
+
+.StartButton-image {
+    background-image: url(../../assets/images/start-game.png);
+    width: 180px;
+    height: 60px;
+    background-size: 180px 60px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: yellow;
+}

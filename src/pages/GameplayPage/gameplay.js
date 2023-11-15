@@ -48,7 +48,7 @@ function shootPlayer() {
             if (availablePlayers.length === 2) {
                 const remainingPlayerElement = availablePlayers.find(item => !item.classList.contains('eliminated')).querySelector('img');
                 const remainingPlayer = remainingPlayerElement.getAttribute('data-player');
-                remainingPlayerElement.src = '../../assets/images/winner.jpg';
+                remainingPlayerElement.src = '../../assets/images/you-win.png';
 
                 alert(`¡El jugador ${remainingPlayer} ha derrotado a los aliens!`);
 
