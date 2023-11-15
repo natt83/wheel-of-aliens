@@ -52,15 +52,15 @@ function shootPlayer() {
 
                 alert(`¡El jugador ${remainingPlayer} ha derrotado a los aliens!`);
 
-                // Almacena el resultado del ganador
+                
                 storeResult(remainingPlayer, (roundEliminated) + (1));
             } else {
                 alert(`El jugador ${eliminatedPlayer} ha sido eliminado.`);
 
-                // Almacena el resultado del jugador eliminado
+                
                 storeResult(eliminatedPlayer, (roundEliminated) + (1));
 
-                // Incrementa el número de la ronda
+                
                 localStorage.setItem('roundEliminated', (roundEliminated) + (1));
             }
         } else {
@@ -72,13 +72,13 @@ function shootPlayer() {
 }
 
 function storeResult(player, round) {
-    // Obtiene los resultados almacenados actualmente
+    
     const results = JSON.parse(localStorage.getItem('results')) || [];
 
-    // Almacena el resultado del jugador
+    
     results.push({ player, round });
 
-    // Actualiza los resultados en localStorage
+    
     localStorage.setItem('results', JSON.stringify(results));
 }
 
