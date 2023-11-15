@@ -1,3 +1,8 @@
 @use './assets/sass/header.scss';
 @use './assets/sass/footer.scss';
-@use './assets/sass/instruction.scss'
+@use './assets/sass/instruction.scss';
+
+body{
+  background-image: url(../src/assets/images/background.png);
+  font-family: 'Courier New', Courier, monospace;
+}
