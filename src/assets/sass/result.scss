@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .result {
+    border: 5px solid gold;
+    background: transparent;
+    text-align: center;
+    width: 50px;
+    margin-left: 25%;
+  }
+  
+  .result h2{
+    background: white;
+    display: inline-block;
+    padding: 10px;
+  }
+  .button-restart-game{
+    background-image: url(./assets/images/imageovnibut.jpg);
+    width: 100px;
+    height: 60px;
+    border-radius: 25%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: end;
+    align-items: center;
+    background-repeat: no-repeat;
+  }
+  .button-restart-game a {
+    margin: 3px 0px;
+    text-decoration: none;
+  
+  }
+  .button-play-again {
+    background-image: url(./assets/images/imagecohete.png);
+    width: 100px;
+    height: 60px;
+    border-radius: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100px 50px;
+  
+  }
+  .button-play-again {
+    margin: 3px 0px;
+    text-decoration: none;
+    
+  }
+    .container-button-result {
+      display: flex;
+      justify-content: space-around;
+      margin: 2rem;
+  
+    }
