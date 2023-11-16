@@ -1,42 +1,71 @@
+.space{
+    background: url("../images/UFO.png");
+}
 body {
-    margin: 0;
-    padding: 0;
-    background-image:url(/src/assets/images/background.png);
-  }
-  
-  main {
-    width: 100%;
-    height: 100%;
-    background:no-repeat center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#imagenContainer {
+    width: 200px;
+    height: 200px;
     background-size: cover;
-    
-  
-  }
-  
-  .space {
-    width: 100%;
-    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#ufo{
+    background-image: url(../../assets/images/UFO.png);
+    background-size: 300px 350px;
+    width: 300px;
+    height: 350px;
+    background-repeat: no-repeat;
+    margin-left:40%;
+    margin-top: 12%;
+    align-items: center;
     
-  }
-  .ufo {
-    width: 50%;
-    height: 50%;
-    background:no-repeat center center;
-    
-  }
-  .ovni{
-    width: 40%;
-    height: 40%;
-    margin-left:88%;
+
+
+}
+.planet{
+    background-image: url(../../assets/images/shoot.png);
+    background-size:120px 100px;
+    width:120px;
+    height:100px;
+    margin-left: 60%;
+    background-repeat: no-repeat;
+}
+.planet2{
+    background-image: url(../../assets/images/plante2.png);
+    background-size: 120px 100px;
+   width: 15%;
+   height: 90px;
+   margin-left: 67%;
+   background-repeat: no-repeat;
+
+}
+.shoot{
+    background-color: rgba(255, 174, 0, 0.1);
+    color: black;
+    margin-left:24%;
     margin-top: 30%;
-  }
-  
-  #button-text {
-    color:black;
-    font-size: 16px;
-    background-image: url(/src/assets/images/marte\ \(1\).png);
-    
-    
-  
-  }
+    cursor:pointer;
+    height: 30%;
+    width:22%;
+    font-size: larger;
+    font-weight: bold;
+    padding: 0%;
+    border: darkgoldenrod;
+}
+.shoot2{
+    background-color: rgba(255, 174, 0, 0.1);
+    color: black;
+    margin-left:14%;
+    margin-top: 14%;
+    cursor:pointer;
+    height:30%;
+    width:22%;
+    font-size:85%;
+    font-weight: bold;
+    border: darkgoldenrod;
+}

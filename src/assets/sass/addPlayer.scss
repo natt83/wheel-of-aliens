@@ -1,0 +1,68 @@
+@media (max-width: 767px) {
+    #PlayerList {
+        font-size: 20px;
+    }
+}
+
+.addPlayer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+#PlayerName, .addPlayerButton {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.PlayerList-container {
+    display: flex;
+    justify-content: center;
+
+    div {
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-areas: 
+        "a a a b c";
+        gap: 0.3rem;
+
+        span{
+            grid-area: a;
+        }
+
+        button:nth-child(1){
+            grid-area: b;
+        }
+
+        button:nth-child(2){
+            grid-area: c;
+        }
+        
+
+    }
+}
+
+
+#PlayerList {
+    font-size: 16px;
+}
+
+.PlayerList-table {
+    margin: 2%;
+    max-width: 90%;
+    background-color: black;
+    border-collapse: collapse;
+    width: 70%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.PlayerList-table td {
+    background-clip: content-box;
+    color: yellow;
+    padding: 5px;
+    text-align: start;
+    border: 3px solid yellow;
+    border-radius: 12px;
+}
+

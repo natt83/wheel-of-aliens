@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contant-list {
+    background-image: url(../../assets/images/background.png);
+    padding: auto;
+    color:white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+
+    h1{
+        font-size: xx-large;
+        font-weight: 800;
+        text-decoration:underline;
+    }
+
+    #list li{
+        margin-bottom: 1rem;
+        font-size: large;
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    #list li{
+padding-left: 1rem;
+padding-right: 1rem;
+
+}
+}
