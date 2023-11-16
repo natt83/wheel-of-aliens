@@ -6,7 +6,90 @@
   <link rel="stylesheet" href="style.scss">
   <title>Alien Attack!</title>
 </head>
+
 <body>
-  <a href="./pages/GameplayPage/index.html">ir a gameplay</a>
+
+  <header>
+
+  <div class="conten">
+    
+    <button class="button-header"><a href="#">Restart Game</a></button>
+  
+    <div class="logo"><img src="./assets/images/AlienLOGO.png" alt="logo del juego"></div>
+
+    <button class="button-header" id="items"><a href="#">Play Again</a></button>
+  </div>
+
+</div>
+
+</header>
+
+<section id="intrucciones">
+
+  <div class="contant-list">
+
+    <h1>Welcome To Alien Attack!</h1>
+
+    <h2 id="sub-title">HOW TO PLAY:</h2>
+
+    <ol type="a" id="list">
+      <li>1. Enter the players names below. (min 2 - max 25 players).</li>
+
+      <li>2. Click on "Start Game".</li>
+
+      <li>3. When the game begins, push "Shoot" to start the elimination round.</li>
+
+      <li>4. Enjoy!</li>
+    </ol>
+
+  </div>
+
+</section>
+
+
+<div class="StartButton-container">
+  <a href="#" onclick="StartGame()" class="StartButton-link">
+    <div class="StartButton-image-container">
+      <img class="StartButton-image" src="./assets/images/start-game.png" alt="spaceship-button">
+      <div class="StartButton-text">Start</div>
+    </div>
+  </a>
+</div>
+
+<div class="addPlayer-container">
+  <input type="text" id="PlayerName" placeholder="Nombre del jugador">
+  <button class="addPlayerButton" onclick="addPlayer()">Add Player</button>
+</div>
+
+<div class="PlayerList-container">
+  <table id="PlayerList" class="PlayerList-table">
+    <tbody>
+
+    </tbody>
+  </table>
+</div>
+
+
+
+
+
+
+<footer>
+
+  <div class="box-footer">
+    <div class="imagen">
+      <img src="./assets/icons/logo-GitHub.png" alt="logo-github">
+      <img src="./assets/icons/facebook.png" alt="logo-facebook">
+      <img src="./assets/icons/instagram.png" alt="logo-instagram">
+      <img src="./assets/icons/youtube.png" alt="logo-youtube">
+    </div>
+    <p> © 2023 Reservado Derecho de admisión </p>
+  </div>
+
+</footer>
+
+<script src="./landing.js"></script>
+
 </body>
+
 </html>

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.conten{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 3%;
+    margin-bottom: 5%;
+
+    .button-header{
+        height: 50px;
+        width: 100px;
+        border-radius: 25%;
+        background-image: url(../../assets/images/nave.jpg);
+        background-size: 100px 50px;
+        background-repeat: no-repeat;
+        margin-top: 2.5%;
+        opacity: 0.9;
+        
+    }
+
+    .button-header a{
+        font-size: large;
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+    }
+
+    .nav-toggle{
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 700px){
+    .logo img{
+        width: 200px ;
+
+        height: 50px;
+    }
+
+    .button-header{
+        height: 40px !important;
+        width: 80px !important; 
+        background-size: 80px 40px !important;
+    }
+
+    .button-header a{
+        font-size: 1rem !important;
+
+    }
+
+}
