@@ -64,7 +64,7 @@ function shootPlayer() {
                 localStorage.setItem('roundEliminated', (roundEliminated) + (1));
             }
         } else {
-            alert('Todos los jugadores han sido eliminados.');
+            alert('Los Aliens ya han sido derrotados');
         }
     } else {
         alert('No hay jugadores para eliminar.');

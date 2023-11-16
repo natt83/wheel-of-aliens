@@ -28,27 +28,22 @@
         <div class="space"> </div>
         <img id="ufo" src="/src/assets/images/UFO.png">
         
+        
         <div class="planet">
-            <button class="shoot" onclick="changeUFO()">shoot</button>
+            <button class="shoot" id="shootButton" onclick="changeUFO()">Shoot</button>
         </div>
         <div class="planet2">
-            <button class="shoot2">ver resultado</button>
+            <button class="shoot2" onclick="window.location.href='../ResultsPage/index.html'">Ver resultado</button>
         </div>
+        <div id="astronautList"></div>
     
-       
-    <script src="../GameplayPage/changeUFO.js"></script>
+    
         
     </body>
+    
+    
 
-
-    <div id="astronautList"></div>
-    <button id="shootButton">Shoot</button>
-    <button onclick="window.location.href='../ResultsPage/index.html'">Ver resultados</button>
-
-
-
-
-
+    <script src="../GameplayPage/changeUFO.js"></script>
     <script src="./gameplay.js"></script>
 </body>
 </html>

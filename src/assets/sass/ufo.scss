@@ -2,7 +2,6 @@
     background: url("../images/UFO.png");
 }
 body {
-    background-image: url(../images/background.png);
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
@@ -31,8 +30,8 @@ body {
 .planet{
     background-image: url(../../assets/images/shoot.png);
     background-size:120px 100px;
-    width:15%;
-    height:90px;
+    width:120px;
+    height:100px;
     margin-left: 60%;
     background-repeat: no-repeat;
 }
@@ -48,8 +47,8 @@ body {
 .shoot{
     background-color: rgba(255, 174, 0, 0.1);
     color: black;
-    margin-left:10%;
-    margin-top: 13%;
+    margin-left:24%;
+    margin-top: 30%;
     cursor:pointer;
     height: 30%;
     width:22%;
@@ -61,8 +60,8 @@ body {
 .shoot2{
     background-color: rgba(255, 174, 0, 0.1);
     color: black;
-    margin-left:8%;
-    margin-top: 10%;
+    margin-left:14%;
+    margin-top: 14%;
     cursor:pointer;
     height:30%;
     width:22%;
